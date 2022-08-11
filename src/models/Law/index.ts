@@ -1,0 +1,4 @@
+export enum AUTH_EVENT {
+  TOKEN_LOGIN = 'TOKEN_LOGIN',
+  LOGOUT = 'LOGOUT',
+}
