@@ -1,0 +1,16 @@
+.buttonBase {
+  padding: 8px 14px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  background-color: #127369;
+  color: #fff;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.buttonBase:hover {
+  transform: translateY(-4px);
+}
