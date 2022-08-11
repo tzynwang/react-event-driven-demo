@@ -6,21 +6,11 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #D7C4BB;
+  background-color: #d7c4bb;
 }
 
-.main > *:not(:last-child) {
-  margin-bottom: 1rem;
-}
-
-.mainCode {
-  font-family: monospace;
-  font-size: 1rem;
-  color: #d63384;
-  word-wrap: break-word;
-}
-
-.mainAnchor {
-  color: #d63384;
-  text-decoration: none;
+.mainButtonWrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
